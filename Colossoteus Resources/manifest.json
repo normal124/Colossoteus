@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+	  "name": "Colossoteus Resources",
+	  "description": "Adds textures and models for the Colossoteus entity.",
+	  "uuid": "1cd629d5-cea4-0ee9-7144-7196427ff620",
+	  "version": [1, 0, 0],
+	  "min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+	  "generated_with": {
+		"blockbench_entity_wizard": ["1.7.0"]
+	  }
+	},
+	"modules": [
+	  {
+		"description": "Colossoteus",
+		"type": "resources",
+		"uuid": "b3109bee-6a33-8063-a73d-3f11e73da645",
+		"version": [1, 0, 0]
+	  }
+	],
+	"dependencies": [
+	  {
+		"uuid": "e01e591e-ad66-fdb5-a0d7-960985e19b34",
+		"version": [1, 0, 0]
+	  }
+	]
+  }

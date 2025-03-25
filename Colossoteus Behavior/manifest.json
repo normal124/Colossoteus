@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+	  "name": "Colossoteus Behavior",
+	  "description": "Adds the Colossoteus entity behavior to Minecraft Bedrock.",
+	  "uuid": "e01e591e-ad66-fdb5-a0d7-960985e19b34",
+	  "version": [1, 0, 0],
+	  "min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+	  "generated_with": {
+		"blockbench_entity_wizard": ["1.7.0"]
+	  }
+	},
+	"modules": [
+	  {
+		"description": "Behavior",
+		"version": [1, 0, 0],
+		"uuid": "57dd0bf4-2da3-f769-70da-498645fa33bb",
+		"type": "data"
+	  }
+	],
+	"dependencies": [
+	  {
+		"uuid": "1cd629d5-cea4-0ee9-7144-7196427ff620",
+		"version": [1, 0, 0]
+	  }
+	]
+  }

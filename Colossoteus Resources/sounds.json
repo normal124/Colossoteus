@@ -1,0 +1,55 @@
+{
+	"entity_sounds": {
+	  "defaults": {
+		"volume": 1.0,
+		"pitch": [0.9, 1.1]
+	  },
+	  "entities": {
+		"colossoteus": {
+		  "events": {
+			"shoot": {
+			  "sound": "thalassophobia:colossoteus.shoot",
+			  "volume": 1.0,
+			  "pitch": 1.0
+			},
+			"ambient": {
+			  "sound": [
+				"thalassophobia:colossoteus.roar",
+				"thalassophobia:colossoteus.roar2",
+				"thalassophobia:colossoteus.roar3"
+			  ],
+			  "volume": 1.0,
+			  "pitch": 1.0
+			},
+			"hurt": {
+			  "sound": [
+				"thalassophobia:colossoteus.hurt1",
+				"thalassophobia:colossoteus.hurt2",
+				"thalassophobia:colossoteus.hurt3"
+			  ],
+			  "volume": 1.0,
+			  "pitch": 1.0
+			},
+			"dies": {
+			  "sound": "thalassophobia:colossoteus.death",
+			  "volume": 1.0,
+			  "pitch": 1.0
+			},
+			"roar_near": {
+			  "sound": "thalassophobia:colossoteus.roar3",
+			  "volume": 1.0,
+			  "pitch": 1.0
+			},
+			"roar_far": {
+			  "sound": [
+				"thalassophobia:colossoteus.roar",
+				"thalassophobia:colossoteus.roar2"
+			  ],
+			  "volume": 1.0,
+			  "pitch": 1.0
+			}
+		  }
+		}
+	  }
+	}
+  }
