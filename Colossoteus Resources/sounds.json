@@ -5,48 +5,27 @@
 		"pitch": [0.9, 1.1]
 	  },
 	  "entities": {
-		"colossoteus": {
+		"myname:colossoteus": {
 		  "events": {
 			"shoot": {
-			  "sound": "thalassophobia:colossoteus.shoot",
-			  "volume": 1.0,
-			  "pitch": 1.0
-			},
-			"ambient": {
-			  "sound": [
-				"thalassophobia:colossoteus.roar",
-				"thalassophobia:colossoteus.roar2",
-				"thalassophobia:colossoteus.roar3"
-			  ],
-			  "volume": 1.0,
-			  "pitch": 1.0
+			  "sound": "sounds/thalassophobia/colossoteus.shoot"
 			},
 			"hurt": {
 			  "sound": [
-				"thalassophobia:colossoteus.hurt1",
-				"thalassophobia:colossoteus.hurt2",
-				"thalassophobia:colossoteus.hurt3"
-			  ],
-			  "volume": 1.0,
-			  "pitch": 1.0
+				"sounds/thalassophobia/colossoteus.hurt1",
+				"sounds/thalassophobia/colossoteus.hurt2",
+				"sounds/thalassophobia/colossoteus.hurt3"
+			  ]
 			},
-			"dies": {
-			  "sound": "thalassophobia:colossoteus.death",
-			  "volume": 1.0,
-			  "pitch": 1.0
+			"death": {
+			  "sound": "sounds/thalassophobia/colossoteus.death"
 			},
-			"roar_near": {
-			  "sound": "thalassophobia:colossoteus.roar3",
-			  "volume": 1.0,
-			  "pitch": 1.0
-			},
-			"roar_far": {
+			"roar": {
 			  "sound": [
-				"thalassophobia:colossoteus.roar",
-				"thalassophobia:colossoteus.roar2"
-			  ],
-			  "volume": 1.0,
-			  "pitch": 1.0
+				"sounds/thalassophobia/colossoteus.roar",
+				"sounds/thalassophobia/colossoteus.roar2",
+				"sounds/thalassophobia/colossoteus.roar3"
+			  ]
 			}
 		  }
 		}

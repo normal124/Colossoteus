@@ -297,38 +297,25 @@
         }
       },
       "colossoteus_attack": {
-        "add": {
-          "component_groups": []
-        },
-        "sound_effects": {
-          "shoot": "colossoteus.shoot"
-        }
-      },
-      "colossoteus_hurt": {
-        "add": {
-          "component_groups": []
-        },
-        "sound_effects": {
-          "hurt": "colossoteus.hurt"
-        }
-      },
-      "colossoteus_dies": {
-        "add": {
-          "component_groups": []
-        },
-        "sound_effects": {
-          "dies": "colossoteus.dies"
-        }
-      },
-      "colossoteus_roar": {
-        "add": {
-          "component_groups": []
-        },
-        "sound_effects": {
-          "roar_near": "colossoteus.roar_near",
-          "roar_far": "colossoteus.roar_far"
-        }
-      }
+    "sound_effects": {
+      "sound": "shoot"
+    }
+  },
+  "colossoteus_hurt": {
+    "sound_effects": {
+      "sound": "hurt"
+    }
+  },
+  "colossoteus_dies": {
+    "sound_effects": {
+      "sound": "death"
+    }
+  },
+  "colossoteus_roar": {
+    "sound_effects": {
+      "sound": "roar"
+    }
+  }
     }
   }
 }	

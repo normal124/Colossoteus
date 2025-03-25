@@ -1,42 +1,40 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-	  "description": {
-		"identifier": "myname:colossoteus",
-		"materials": {
-		  "default": "entity_alphatest"
-		},
-		"textures": {
-		  "default": "textures/entity/colossoteus"
-		},
-		"geometry": {
-		  "default": "geometry.colossoteus"
-		},
-		"animations": {
-		  "idle": "animation.colossoteus.idle",
-		  "swim": "animation.colossoteus.swim",
-		  "roar": "animation.colossoteus.roar"
-		},
-		"scripts": {
-		  "animate": [
-			{ "idle": "query.is_in_water" },
-			{ "swim": "query.is_in_water && !query.is_sleeping" },
-			{ "roar": "query.is_angry" }
-		  ]
-		},
-		"render_controllers": ["controller.render.default"],
-		"spawn_egg": {
-		  "base_color": "#0001ff",
-		  "overlay_color": "#000000"
-		},
-		"sound_effects": {
-		  "shoot": "colossoteus.shoot",
-		  "ambient": "colossoteus.ambient",
-		  "hurt": "colossoteus.hurt",
-		  "dies": "colossoteus.dies",
-		  "roar_near": "colossoteus.roar_near",
-		  "roar_far": "colossoteus.roar_far"
-		}
-	  }
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "myname:colossoteus",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/colossoteus"
+      },
+      "geometry": {
+        "default": "geometry.colossoteus"
+      },
+      "animations": {
+        "idle": "animation.colossoteus.idle",
+        "swim": "animation.colossoteus.swim",
+        "roar": "animation.colossoteus.roar"
+      },
+      "scripts": {
+        "animate": [
+          { "idle": "query.is_in_water" },
+          { "swim": "query.is_in_water && !query.is_sleeping" },
+          { "roar": "query.is_angry" }
+        ]
+      },
+      "render_controllers": ["controller.render.default"],
+      "spawn_egg": {
+        "base_color": "#0001ff",
+        "overlay_color": "#000000"
+      },
+      "sound_effects": {
+        "shoot": "shoot",
+        "hurt": "hurt",
+        "death": "death",
+        "roar": "roar"
+      }
+    }
   }
+}
